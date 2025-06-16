@@ -16,7 +16,7 @@ public class Category {
     private Long id;
     private String name;
 
-    @OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "category", cascade = CascadeType.ALL, fetch=FetchType.EAGER)
     private List<Product> products = new ArrayList<>();
 
     public Long getId() {
