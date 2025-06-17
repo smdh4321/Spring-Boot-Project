@@ -1,8 +1,12 @@
 package com.bitsnbytes.dto;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
+@Schema(
+        name = "Product",
+        description = "It holds product informtion"
+)
 @Data
 @NoArgsConstructor
 public class ProductDTO {
