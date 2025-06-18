@@ -2,6 +2,7 @@ package com.bitsnbytes.service;
 
 import com.bitsnbytes.entity.User;
 import com.bitsnbytes.repository.UserRepository;
+import com.bitsnbytes.security.UserPrincipal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
